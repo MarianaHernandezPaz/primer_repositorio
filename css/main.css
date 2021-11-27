@@ -352,9 +352,12 @@ textarea {
 }
 
 /* responsive */
-@media screen and (max-width: 500px) {
-    .parrafo {
+@media screen and (max-width: 100px) {
+    .menu {
       display: block;
     }
   
+    #home-about {
+        display: block;
+    }
   }
