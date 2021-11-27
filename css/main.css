@@ -11,12 +11,14 @@ body {
 h1 {
     color: rgb(103, 38, 122); line-height: 0.4em;
     font-style: italic;
+    padding-top: 20px;
     
 }
 
 h2 {
     color: rgb(0, 157, 149); line-height: 0.01em;
     font-size: 1.3em; font-weight: 400;
+    padding-top: 30px;
 }
 
 /* esta es una lista ordenada */
@@ -46,7 +48,6 @@ td {
 }
 
 #home-about {
-    background-color: rgba(255, 255, 255, 0.8);
     height: 150px;
     border-top: solid 2px rgb(139, 139, 139);
 
@@ -82,6 +83,7 @@ td {
 .parrafo {
     color: rgb(73, 41, 102);
     margin: 50px; margin-bottom: 0px;
+    padding-top: 20px;
 }
 
 .links-primary {
@@ -218,7 +220,7 @@ section {
 
 footer {
     padding: 5px;
-    text-align:left;
+    text-align:center;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -349,4 +351,10 @@ textarea {
     cursor: pointer;
 }
 
-
+/* responsive */
+@media screen and (max-width: 500px) {
+    .parrafo {
+      display: block;
+    }
+  
+  }
